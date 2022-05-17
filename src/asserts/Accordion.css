@@ -1,0 +1,57 @@
+h1{
+    text-align: center;
+    font-family :sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 70px;
+  }
+  .displaycontent{
+    background-color: azure;
+    padding : 10px;
+    margin-left: 30px;
+    position: relative;
+  }
+  .username{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+    background-color: gray;
+    margin-top: 10px;
+    padding : 25px;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  .upsymbol:after {
+    content: "\2303";
+    float: right;
+  }
+  
+  .downsymbol:after {
+    content: "\2304";
+    float: right;
+  }
+  
+  .userDisplayDetails {
+    max-height: 0;
+    overflow: hidden;
+  }
+  .userDisplayDetails.show {
+    display: flex;
+    align-items: center;
+    height: auto;
+    max-height: 500px;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  img {
+    float: left;
+    margin: 10px;
+    width: 120px;
+    height: 150px;
+  }
+  .content{
+    display: flex;
+  }
+  .text{
+     padding: 15px;
+  }
