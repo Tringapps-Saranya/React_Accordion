@@ -3,7 +3,7 @@ import axios from 'axios'
 import '../asserts/Accordion.css'
 import profile_picture from '../asserts/profile_picture.png'
 
-function Fetching() {
+function Accordion() {
 
       const[users, setUsers] = useState([])
       const [userId, setUserId] = useState(null);
@@ -18,8 +18,8 @@ function Fetching() {
             setUsers(result.data.data);
             displayconsole && console && console.log(users);
         })
-        .catch(error =>{
-            displayconsole && console.log(error.message);
+        .catch(errorMessage =>{
+            displayconsole && console.log(errorMessage.message);
             seterror(true);
         })
       
